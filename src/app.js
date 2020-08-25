@@ -1,5 +1,5 @@
 function getPosts() {
-    fetch('http://localhost:8000/posts')
+    fetch('https://lumen-blog.000webhostapp.com/posts')
         .then((res) => res.json())
         .then((data) => {
             let output = '';
@@ -7,7 +7,7 @@ function getPosts() {
                 output += `
                 <div class="col-md-4 col-sm-6 mb-2">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="http://localhost:8000/img/${post.photo}" alt="Card image cap">
+                        <img class="card-img-top" src="https://lumen-blog.000webhostapp.com/img/${post.photo}" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">${post.title}</h5>
                             <p class="card-text">${post.desc}</p>
