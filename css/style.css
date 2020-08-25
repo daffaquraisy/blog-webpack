@@ -1,0 +1,45 @@
+* {
+    /* font-family: 'Crimson Text', serif; */
+    font-family: 'Nunito', sans-serif;
+    color: #051e3e;
+}
+
+a.navbar-brand {
+    font-family: 'Crimson text';
+    font-weight: bold;
+    font-size: 30px;
+    color: #851E3E !important;
+}
+
+span.sub-nav-brand {
+    font-family: 'Nunito';
+    font-size: 20px;
+    color: #851E3E;
+}
+
+a.nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h5.hero-tag {
+    font-weight: 700;
+}
+
+h2.main-hero-tag {
+    font-family: 'Crimson Text';
+    font-weight: bold;
+}
+
+.my-btn {
+    color: #fff;
+    background-color: #851E3E;
+    width: 200px;
+    border-radius: 20px;
+}
+
+h3.tag-line {
+    font-family: 'Crimson Text';
+    font-weight: bold;
+    margin: 0;
+}
